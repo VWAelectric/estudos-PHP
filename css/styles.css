@@ -1,0 +1,70 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Um cinza bem claro para o fundo */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #343a40; /* Um tom de cinza escuro para o título */
+    margin: 30px;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff; /* Branco para o container principal */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Sombra suave para profundidade */
+    width: 90%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #495057; /* Outro tom de cinza para os rótulos */
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #555; /* Borda clara para os campos de entrada */
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button[type="submit"] {
+    background-color: #28a745; /* Verde que transmite segurança e ação */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; /* Tom de verde mais escuro ao passar o mouse */
+    
+}
